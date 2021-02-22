@@ -19,8 +19,8 @@ public class HomeController
 	{
 		return new ModelAndView("home");
 	}
-	
-	/*@RequestMapping(value="/recoveryInfo")
+	/*
+	@RequestMapping(value="/recoveryInfo")
 	public ModelAndView recoveryInfo(HttpServletRequest request, Model model) throws IOException
 	{
 		// Data on model
@@ -28,7 +28,6 @@ public class HomeController
 		
 		return new ModelAndView("recoveryInfo");
 	}*/
-	
 	// Binding Request Params
 	@RequestMapping(value="/recoveryInfo")
 	public ModelAndView recoveryInfoII(@RequestParam("name") String name, Model model) throws IOException
