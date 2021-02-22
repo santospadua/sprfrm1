@@ -13,7 +13,7 @@
 <body>
 	<div class="container-fluid">
 		<h2>Example simple form bootstrap</h2>
-		<form action="recoveryInfo" method="get">
+		<form action="port/recoveryInfo" method="get">
 			<br>
 			<div class="form-group col-4">
 				<input type="text" class="form-control" name="name"
